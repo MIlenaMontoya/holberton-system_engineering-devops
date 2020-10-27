@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 #displays Holberton School 10 times, but for the 9th iteration, displays Hi on a new line
+
 m=0
-while [ "$m" -le 10 ]
+while [ "$m" -le 9 ]
 do
 	echo "Holberton School"
-	if [ "$m" -eq 9 ]
+	if [ "$m" -eq 8 ]
 	then
 		echo "Hi"
 	fi
