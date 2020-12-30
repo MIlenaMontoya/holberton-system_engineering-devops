@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Configure Nginx server to redirecting to error page
+# Configure Nginx server redirecting to error page
 sudo apt-get update
 sudo apt-get -y install nginx
 sudo ufw allow 'Nginx HTTP'
